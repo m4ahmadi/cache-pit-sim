@@ -5,7 +5,8 @@ This simulator will receive as input the following parameters:
 3) Log setting which can be either "OFF" or "ON"
 4) simulation type which varies depending on which figure we are going to produce the results for.
 
-##Configuration file and simulation types:
+### Configuration file and simulation types:
+
 In the folder "input" next to the source code, you can find different samples of the input files used for different figures. For each simulation type, a subset of parameters must be set which are mentioned in the corresponding input file.
 
 1) input1.txt -> used for figures 3-6. Note that POLICY should be 0, 1, 2, 3 to produce the LRU-model, 2LRU-model, LRU-sim, 2LRU-sim, respectively. Also, the simulation type should be 1,..., 4 to produce Fig.3, ..., Fig.6 results, respectively.
